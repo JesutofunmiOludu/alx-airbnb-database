@@ -1,3 +1,4 @@
+
 # 💾 Normalization Assessment: AirBnB Database Schema
 
 ## Objective
