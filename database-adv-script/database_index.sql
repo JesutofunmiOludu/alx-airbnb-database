@@ -11,3 +11,9 @@ CREATE INDEX idx_properties_city ON properties(city);
 
 -- 4️⃣ Reviews table
 CREATE INDEX idx_reviews_booking_id ON reviews(booking_id);
+-- Measure Performance
+EXPLAIN
+SELECT u.full_name, b.booking_id, b.start_date, b.end_date
+FROM users u
+JOIN bookings b ON u.user_id = b.guest_id
+WHERE u.user_id = 3;
