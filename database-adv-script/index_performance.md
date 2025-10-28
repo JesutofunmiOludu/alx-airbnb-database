@@ -21,13 +21,9 @@ After reviewing all major queries used in the Airbnb schema, the following colum
 
 ---
 
-## ⚙️ Step 2: Create Indexes
-
-Below are the SQL commands used to create the appropriate indexes.  
-These commands are stored in the file: **`database_index.sql`**
 
 ```sql
--- database_index.sql
+
 
 -- 1️⃣ User table
 CREATE INDEX idx_users_user_id ON users(user_id);
