@@ -1,4 +1,3 @@
--- performance.sql
 -- ===========================================================
 -- INITIAL QUERY: Retrieve all bookings with user, property, and payment details
 -- ===========================================================
